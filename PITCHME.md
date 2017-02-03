@@ -24,12 +24,13 @@ let puppies = dogs.filter(x => x.age < 3).map(x => x.name);
 #HSLIDE
 # Reactive C# & JS
 <!-- http://www.slideshare.net/Codemotion/tamir-dresher-reactive-extensions-rx-101 -->
-    Linq for events
+Linq for events
 <!--IObserver & IObservable<T>-->
 
 #VSLIDE
 ```csharp
-var textChanged = Observable.FromEventPattern(txtBox, "TextChanged")
+var textChanged = 
+	Observable.FromEventPattern(txtBox, "TextChanged")
     .Select(txtBox => txtBox.Text);
 
 textChanged
@@ -63,7 +64,7 @@ Rx.Observable.fromEvent($input, 'keyup')
 #HSLIDE
 # IOT
 * Alexa has skills (apps) that you can program <!-- .element: class="fragment" -->
-* Connect Alexa to www.particle.io with skill <!-- .element: class="fragment" -->
+* Connect Alexa to www.particle.io with a skill <!-- .element: class="fragment" -->
 * Connect www.particle.io to Particle Photon ($19), Raspberry Pi ($35), Raspberry Pi Zero ($5) <!-- .element: class="fragment" -->
 * Connect Alexa to Tesla <!-- .element: class="fragment" -->
 
@@ -82,23 +83,23 @@ Rx.Observable.fromEvent($input, 'keyup')
 #HSLIDE
 # Dates and Time
 * Timezones change every year <!-- .element: class="fragment" -->
-*      At least 10 time zone changes in 2016
-*        Egypt scrapped DST 3 days before it would have started
-*        In 2011 Samoa switched sides of international date line, skips day
-*    Current and past timestamps, always use UTC <!-- .element: class="fragment" -->
-*    Furture datetime, use local datetime <!-- .element: class="fragment" -->
-*    Birthdays, start/end dates, use date object without time component <!-- .element: class="fragment" -->
-*    Format date yyyy-MM-dd, provide help text <!-- .element: class="fragment" -->
-*    Don't write your own lib, moment.js, Noda Time <!-- .element: class="fragment" -->
-*    Mock the clock <!-- .element: class="fragment" -->
-*    iana.org/time-zones Internet Assigned Numbers Authority <!-- .element: class="fragment" -->
+* At least 10 time zone changes in 2016 <!-- .element: class="fragment" -->
+* Egypt scrapped DST 3 days before it would have started <!-- .element: class="fragment" -->
+* In 2011 Samoa switched sides of international date line, skips day <!-- .element: class="fragment" -->
+* Current and past timestamps, always use UTC <!-- .element: class="fragment" -->
+* Furture datetime, use local datetime <!-- .element: class="fragment" -->
+* Birthdays, start/end dates, use date object without time component <!-- .element: class="fragment" -->
+* Format date yyyy-MM-dd, provide help text <!-- .element: class="fragment" -->
+* Don't write your own lib, moment.js, Noda Time <!-- .element: class="fragment" -->
+* Mock the clock <!-- .element: class="fragment" -->
+* iana.org/time-zones Internet Assigned Numbers Authority <!-- .element: class="fragment" -->
 
 #HSLIDE
 # Domain Driven Apps
-*    Ubiquitous Language: Keep same names for work items, features, models, db objects <!-- .element: class="fragment" -->
-*    Bounded Context: Keep your data and models to yourself <!-- .element: class="fragment" -->
-*    Aggregate: Groups of immuteable objects <!-- .element: class="fragment" -->
-*    Clean Architecture / Onion Architecture:  <!-- .element: class="fragment" -->
+* Ubiquitous Language: Keep same names for work items, features, models, db objects <!-- .element: class="fragment" -->
+* Bounded Context: Keep your data and models to yourself <!-- .element: class="fragment" -->
+* Aggregate: Groups of immuteable objects <!-- .element: class="fragment" -->
+* Clean Architecture / Onion Architecture:  <!-- .element: class="fragment" -->
 
 #VSLIDE
 ![Onion Architecture](http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/07/image1.png)
