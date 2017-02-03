@@ -88,11 +88,11 @@ Rx.Observable.fromEvent($input, 'keyup')
 * In 2011 Samoa switched sides of international date line, skips day <!-- .element: class="fragment" -->
 
 #VSLIDE
-* Current and past timestamps, always use UTC <!-- .element: class="fragment" -->
+* Current and past timestamps, always use UTC
 * Furture datetime, use local datetime <!-- .element: class="fragment" -->
 * Birthdays, start/end dates, use date object without time component <!-- .element: class="fragment" -->
 * Format date yyyy-MM-dd, provide help text <!-- .element: class="fragment" -->
-* Don't write your own lib, moment.js, Noda Time <!-- .element: class="fragment" -->
+* Don't write your own lib, use moment.js, Noda Time <!-- .element: class="fragment" -->
 * Mock the clock <!-- .element: class="fragment" -->
 * iana.org/time-zones Internet Assigned Numbers Authority <!-- .element: class="fragment" -->
 
@@ -107,6 +107,9 @@ Rx.Observable.fromEvent($input, 'keyup')
 ![Onion Architecture](http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/07/image1.png)
 
 #HSLIDE
+
+The End
+
 #HSLIDE
 #HSLIDE
 # Security
