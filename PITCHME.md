@@ -1,11 +1,13 @@
 #HSLIDE
 # Functional JavaScript / Linq for JS
-| C#  | JS  | Support <!-- .element: class="fragment" -->
+
+#VSLIDE
+| C#  | JS  | Support
 | --- | --- | -------
 | Where | filter | ES5
-| Select | map | ES5 <!-- .element: class="fragment" -->
-| Aggregate | reduce | ES5 <!-- .element: class="fragment" -->
-| => | => | ES6 <!-- .element: class="fragment" -->
+| Select | map | ES5
+| Aggregate | reduce | ES5
+| => | => | ES6 
 
 #VSLIDE
 ```javascript
@@ -74,26 +76,29 @@ Rx.Observable.fromEvent($input, 'keyup')
 #VSLIDE
 ![Raspberry Pi Zero](https://www.raspberrypi.org/wp-content/uploads/2016/02/Raspberry-Pi-Zero-web.jpg)
 
+#VSLIDE
+![Tesla](https://www.tesla.com/tesla_theme/assets/img/models/section-hero-background.jpg)
+
 #HSLIDE
 # Dates and Time
-    Timezones change every year <!-- .element: class="fragment" -->
-        At least 10 time zone changes in 2016
-        Egypt scrapped DST 3 days before it would have started
-        In 2011 Samoa switched sides of international date line, skips day
-    Current and past timestamps, always use UTC <!-- .element: class="fragment" -->
-    Furture datetime, use local datetime <!-- .element: class="fragment" -->
-    Birthdays, start/end dates, use date object without time component <!-- .element: class="fragment" -->
-    Format date yyyy-MM-dd, provide help text <!-- .element: class="fragment" -->
-    Don't write your own lib, moment.js, Noda Time <!-- .element: class="fragment" -->
-    Mock the clock <!-- .element: class="fragment" -->
-    iana.org/time-zones Internet Assigned Numbers Authority <!-- .element: class="fragment" -->
+* Timezones change every year <!-- .element: class="fragment" -->
+*      At least 10 time zone changes in 2016
+*        Egypt scrapped DST 3 days before it would have started
+*        In 2011 Samoa switched sides of international date line, skips day
+*    Current and past timestamps, always use UTC <!-- .element: class="fragment" -->
+*    Furture datetime, use local datetime <!-- .element: class="fragment" -->
+*    Birthdays, start/end dates, use date object without time component <!-- .element: class="fragment" -->
+*    Format date yyyy-MM-dd, provide help text <!-- .element: class="fragment" -->
+*    Don't write your own lib, moment.js, Noda Time <!-- .element: class="fragment" -->
+*    Mock the clock <!-- .element: class="fragment" -->
+*    iana.org/time-zones Internet Assigned Numbers Authority <!-- .element: class="fragment" -->
 
 #HSLIDE
 # Domain Driven Apps
-    Ubiquitous Language: Keep same names for work items, features, models, db objects <!-- .element: class="fragment" -->
-    Bounded Context: Keep your data and models to yourself <!-- .element: class="fragment" -->
-    Aggregate: Groups of immuteable objects <!-- .element: class="fragment" -->
-    Clean Architecture / Onion Architecture:  <!-- .element: class="fragment" -->
+*    Ubiquitous Language: Keep same names for work items, features, models, db objects <!-- .element: class="fragment" -->
+*    Bounded Context: Keep your data and models to yourself <!-- .element: class="fragment" -->
+*    Aggregate: Groups of immuteable objects <!-- .element: class="fragment" -->
+*    Clean Architecture / Onion Architecture:  <!-- .element: class="fragment" -->
 
 #VSLIDE
 ![Onion Architecture](http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/07/image1.png)
