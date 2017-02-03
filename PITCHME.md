@@ -86,6 +86,8 @@ Rx.Observable.fromEvent($input, 'keyup')
 * At least 10 time zone changes in 2016 <!-- .element: class="fragment" -->
 * Egypt scrapped DST 3 days before it would have started <!-- .element: class="fragment" -->
 * In 2011 Samoa switched sides of international date line, skips day <!-- .element: class="fragment" -->
+
+#VSLIDE
 * Current and past timestamps, always use UTC <!-- .element: class="fragment" -->
 * Furture datetime, use local datetime <!-- .element: class="fragment" -->
 * Birthdays, start/end dates, use date object without time component <!-- .element: class="fragment" -->
@@ -99,7 +101,7 @@ Rx.Observable.fromEvent($input, 'keyup')
 * Ubiquitous Language: Keep same names for work items, features, models, db objects <!-- .element: class="fragment" -->
 * Bounded Context: Keep your data and models to yourself <!-- .element: class="fragment" -->
 * Aggregate: Groups of immuteable objects <!-- .element: class="fragment" -->
-* Clean Architecture / Onion Architecture:  <!-- .element: class="fragment" -->
+* Clean Architecture / Onion Architecture  <!-- .element: class="fragment" -->
 
 #VSLIDE
 ![Onion Architecture](http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/07/image1.png)
