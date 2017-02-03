@@ -1,11 +1,11 @@
 #HSLIDE
 # Functional JavaScript / Linq for JS
-    C#  | JS  | Support <!-- .element: class="fragment" -->
-    --- | --- | -------
-    Where | filter | ES5
-    Select | map | ES5 <!-- .element: class="fragment" -->
-    Aggregate | reduce | ES5 <!-- .element: class="fragment" -->
-    => | => | ES6 <!-- .element: class="fragment" -->
+    | C#  | JS  | Support <!-- .element: class="fragment" -->
+    | --- | --- | -------
+    | Where | filter | ES5
+    | Select | map | ES5 <!-- .element: class="fragment" -->
+    | Aggregate | reduce | ES5 <!-- .element: class="fragment" -->
+    | => | => | ES6 <!-- .element: class="fragment" -->
 
 #VSLIDE
 ```javascript
