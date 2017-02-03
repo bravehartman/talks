@@ -1,11 +1,11 @@
 #HSLIDE
 # Functional JavaScript / Linq for JS
-    | C#  | JS  | Support <!-- .element: class="fragment" -->
-    | --- | --- | -------
-    | Where | filter | ES5
-    | Select | map | ES5 <!-- .element: class="fragment" -->
-    | Aggregate | reduce | ES5 <!-- .element: class="fragment" -->
-    | => | => | ES6 <!-- .element: class="fragment" -->
+| C#  | JS  | Support <!-- .element: class="fragment" -->
+| --- | --- | -------
+| Where | filter | ES5
+| Select | map | ES5 <!-- .element: class="fragment" -->
+| Aggregate | reduce | ES5 <!-- .element: class="fragment" -->
+| => | => | ES6 <!-- .element: class="fragment" -->
 
 #VSLIDE
 ```javascript
@@ -60,10 +60,10 @@ Rx.Observable.fromEvent($input, 'keyup')
 
 #HSLIDE
 # IOT
-    * Alexa has skills (apps) that you can program <!-- .element: class="fragment" -->
-    * Connect Alexa to www.particle.io with skill <!-- .element: class="fragment" -->
-    * Connect www.particle.io to Particle Photon ($19), Raspberry Pi ($35), Raspberry Pi Zero ($5) <!-- .element: class="fragment" -->
-    * Connect Alexa to Tesla <!-- .element: class="fragment" -->
+* Alexa has skills (apps) that you can program <!-- .element: class="fragment" -->
+* Connect Alexa to www.particle.io with skill <!-- .element: class="fragment" -->
+* Connect www.particle.io to Particle Photon ($19), Raspberry Pi ($35), Raspberry Pi Zero ($5) <!-- .element: class="fragment" -->
+* Connect Alexa to Tesla <!-- .element: class="fragment" -->
 
 #VSLIDE
 ![Photon](http://cdn.shopify.com/s/files/1/0925/6626/products/150802_Particle-26_large.jpg?v=1449089167)
