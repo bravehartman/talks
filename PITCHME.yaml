@@ -1,0 +1,4 @@
+horz-delim : ++++
+vert-delim : ....
+horz-delim-regexp : \+\+\+\+
+vert-delim-regexp : \.\.\.\.
