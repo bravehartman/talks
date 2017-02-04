@@ -119,7 +119,7 @@ Rx.Observable.fromEvent($input, 'keyup')
 * Use azure AD, B2B, B2C <!-- .element: class="fragment" -->
 * Phyisical security <!-- .element: class="fragment" -->
 #VSLIDE
-* Think like a hacker <!-- .element: class="fragment" -->
+* Think like a hacker 
 * The internet is being scanned <!-- .element: class="fragment" -->
 * MassScan <!-- .element: class="fragment" -->
 * Shodan.io <!-- .element: class="fragment" -->
@@ -138,7 +138,7 @@ Rx.Observable.fromEvent($input, 'keyup')
 * Lucky people try new things <!-- .element: class="fragment" -->
 * Sometimes success is luck, bubble wrap, sticky notes, play-doh, safety glass <!-- .element: class="fragment" -->
 #VSLIDE
-* Don't blame and shame, give grace <!-- .element: class="fragment" -->
+* Don't blame and shame, give grace
 * Take advantage of failures <!-- .element: class="fragment" -->
 * Take risks and learn <!-- .element: class="fragment" -->
 * FAIL - Frist Attempt In Learning <!-- .element: class="fragment" -->
