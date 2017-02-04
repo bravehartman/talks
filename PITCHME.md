@@ -1,4 +1,7 @@
 #HSLIDE
+# CodeMash 2017
+
+#HSLIDE
 # Functional JavaScript / Linq for JS
 
 #VSLIDE
@@ -108,53 +111,51 @@ Rx.Observable.fromEvent($input, 'keyup')
 
 #HSLIDE
 
-The End
-
-#HSLIDE
 #HSLIDE
 # Security
-    SSL is broken, use TLS 1.2 if possible <!-- .element: class="fragment" -->
-    let's encrypt has free certs <!-- .element: class="fragment" -->
-    firefox and chrome are marking http sites as unsecure <!-- .element: class="fragment" -->
-    http2 requires TLS <!-- .element: class="fragment" -->
-    password storage is tough to get right and requires changing the computational intenity every year <!-- .element: class="fragment" -->
-    use azure AD, B2B, B2C <!-- .element: class="fragment" -->
-    Phyisical security <!-- .element: class="fragment" -->
-    think like a hacker <!-- .element: class="fragment" -->
-    the internet is being scanned <!-- .element: class="fragment" -->
-        MassScan <!-- .element: class="fragment" -->
-        Shodan.io <!-- .element: class="fragment" -->
-        Censys.io <!-- .element: class="fragment" -->
-        Google <!-- .element: class="fragment" -->
-    break the rules <!-- .element: class="fragment" -->
-    Rubber Ducky Usb drive <!-- .element: class="fragment" -->
-    AFL, Burp, OWASP Zed Attack Proxy, BeFF, WSFuzzer <!-- .element: class="fragment" -->
-    
+* SSL is broken, use TLS 1.2 if possible <!-- .element: class="fragment" -->
+* Let's Encrypt has free certs <!-- .element: class="fragment" -->
+* Firefox and chrome are marking http sites as unsecure <!-- .element: class="fragment" -->
+* HTTP2 requires TLS <!-- .element: class="fragment" -->
+* Password storage is tough to get right and requires changing the computational intenity every year <!-- .element: class="fragment" -->
+* Use azure AD, B2B, B2C <!-- .element: class="fragment" -->
+* Phyisical security <!-- .element: class="fragment" -->
+* Think like a hacker <!-- .element: class="fragment" -->
+* The internet is being scanned <!-- .element: class="fragment" -->
+* MassScan <!-- .element: class="fragment" -->
+* Shodan.io <!-- .element: class="fragment" -->
+* Censys.io <!-- .element: class="fragment" -->
+* Google <!-- .element: class="fragment" -->
+* Break the rules <!-- .element: class="fragment" -->
+* Rubber Ducky Usb drive <!-- .element: class="fragment" -->
+* AFL, Burp, OWASP Zed Attack Proxy, BeFF, WSFuzzer <!-- .element: class="fragment" -->
+
 #HSLIDE
 # Failure
-    Learn from failure, hubble & mars climate orbiter <!-- .element: class="fragment" -->
-    Narrow focus, new coke <!-- .element: class="fragment" -->
-    stopping at success, myspace <!-- .element: class="fragment" -->
-    survivorship bais, only looking at success cases <!-- .element: class="fragment" -->
-    lucky people try new things <!-- .element: class="fragment" -->
-    Sometimes success is luck, bubble wrap, sticky notes, play-doh, safety glass <!-- .element: class="fragment" -->
-    don't blame and shame, give grace <!-- .element: class="fragment" -->
-    take advantage of failures <!-- .element: class="fragment" -->
-    take risks and learn <!-- .element: class="fragment" -->
-    FAIL - Frist Attempt In Learning <!-- .element: class="fragment" -->
-    Fail fast, learn fast <!-- .element: class="fragment" -->
-    Failure is not falling down but refusing to get up <!-- .element: class="fragment" -->
+* Learn from failure, hubble & mars climate orbiter <!-- .element: class="fragment" -->
+* Narrow focus, new coke <!-- .element: class="fragment" -->
+* Stopping at success, myspace <!-- .element: class="fragment" -->
+* Survivorship bais, only looking at success cases <!-- .element: class="fragment" -->
+* Lucky people try new things <!-- .element: class="fragment" -->
+* Sometimes success is luck, bubble wrap, sticky notes, play-doh, safety glass <!-- .element: class="fragment" -->
+* Don't blame and shame, give grace <!-- .element: class="fragment" -->
+* Take advantage of failures <!-- .element: class="fragment" -->
+* Take risks and learn <!-- .element: class="fragment" -->
+* FAIL - Frist Attempt In Learning <!-- .element: class="fragment" -->
+* Fail fast, learn fast <!-- .element: class="fragment" -->
+* Failure is not falling down but refusing to get up <!-- .element: class="fragment" -->
 
 #HSLIDE
 # UI
-    Make things closer and bigger to users to get them to find and click <!-- .element: class="fragment" -->
-    Take into account how we hold our gadgets <!-- .element: class="fragment" -->
-    watch users use the system for the first time <!-- .element: class="fragment" -->
-    more choices = more time, so reduce choices <!-- .element: class="fragment" -->
-    You can only hold 7-ish items in your head <!-- .element: class="fragment" -->
+* Make things closer and bigger to users to get them to find and click <!-- .element: class="fragment" -->
+* Take into account how we hold our gadgets <!-- .element: class="fragment" -->
+* Watch users use the system for the first time <!-- .element: class="fragment" -->
+* More choices = more time, so reduce choices <!-- .element: class="fragment" -->
+* You can only hold 7-ish items in your head <!-- .element: class="fragment" -->
 
 #HSLIDE
 # Virtual DOM
+#VSLIDE
 ```javscript
     {
         tag: div,
