@@ -110,8 +110,6 @@ Rx.Observable.fromEvent($input, 'keyup')
 ![Onion Architecture](http://blog.thedigitalgroup.com/chetanv/wp-content/uploads/sites/23/2015/07/image1.png)
 
 #HSLIDE
-
-#HSLIDE
 # Security
 * SSL is broken, use TLS 1.2 if possible <!-- .element: class="fragment" -->
 * Let's Encrypt has free certs <!-- .element: class="fragment" -->
@@ -120,6 +118,7 @@ Rx.Observable.fromEvent($input, 'keyup')
 * Password storage is tough to get right and requires changing the computational intenity every year <!-- .element: class="fragment" -->
 * Use azure AD, B2B, B2C <!-- .element: class="fragment" -->
 * Phyisical security <!-- .element: class="fragment" -->
+#VSLIDE
 * Think like a hacker <!-- .element: class="fragment" -->
 * The internet is being scanned <!-- .element: class="fragment" -->
 * MassScan <!-- .element: class="fragment" -->
@@ -138,6 +137,7 @@ Rx.Observable.fromEvent($input, 'keyup')
 * Survivorship bais, only looking at success cases <!-- .element: class="fragment" -->
 * Lucky people try new things <!-- .element: class="fragment" -->
 * Sometimes success is luck, bubble wrap, sticky notes, play-doh, safety glass <!-- .element: class="fragment" -->
+#VSLIDE
 * Don't blame and shame, give grace <!-- .element: class="fragment" -->
 * Take advantage of failures <!-- .element: class="fragment" -->
 * Take risks and learn <!-- .element: class="fragment" -->
